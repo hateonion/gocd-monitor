@@ -2,7 +2,7 @@
  * Main jsx-file
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 
 import { Dialog, FlatButton, FloatingActionButton, Snackbar } from 'material-ui';
 import Settings from 'material-ui/svg-icons/action/settings';
@@ -40,7 +40,7 @@ const sortOrders = [{
 }];
 
 
-export default class Main extends React.Component {
+export default class Main extends Component {
 
   constructor(props, context) {
     super(props, context);

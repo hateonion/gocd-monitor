@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -19,7 +19,7 @@ injectTapEventPlugin();
 const socket = io();
 
 // When no route is found
-class NoRoute extends React.Component {
+class NoRoute extends Component {
   render() {
     return <h1>No route found :(</h1>
   }

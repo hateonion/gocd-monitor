@@ -2,7 +2,7 @@
  * Test results jsx-file
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 
 import { Card, CardActions, CardMedia, CardText, CardTitle, IconButton } from 'material-ui';
 import { Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui/Table';
@@ -137,7 +137,7 @@ const chartOptions = {
   datasetFill: true
 }
 
-export default class TestReport extends React.Component {
+export default class TestReport extends Component {
 
   constructor(props, context) {
     super(props, context);

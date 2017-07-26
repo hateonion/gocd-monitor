@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {Divider, List, ListItem, Subheader, Toggle, FlatButton} from 'material-ui';
 
-export default class RegexPipelineFilter extends React.Component {
+export default class RegexPipelineFilter extends Component {
   constructor(props, context) {
     super(props, context);
 

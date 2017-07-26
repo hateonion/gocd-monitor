@@ -2,7 +2,7 @@
  * Test results jsx-file
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 
 import { Dialog, FlatButton, FloatingActionButton, Snackbar } from 'material-ui';
 import Add from 'material-ui/svg-icons/content/add';
@@ -32,7 +32,7 @@ const styles = {
 // From latest report to this number of days back in time
 const daysInterval = 20;
 
-export default class TestResults extends React.Component {
+export default class TestResults extends Component {
 
   constructor(props, context) {
     super(props, context);

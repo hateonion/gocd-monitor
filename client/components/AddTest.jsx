@@ -2,11 +2,11 @@
  * Add test dialog
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 
 import { SelectField, MenuItem } from 'material-ui';
 
-export default class Configuration extends React.Component {
+export default class Configuration extends Component {
 
   constructor(props, context) {
     super(props, context);

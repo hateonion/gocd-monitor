@@ -2,7 +2,7 @@
  * Pipeline card
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 
 import { Card, CardHeader, CardText } from 'material-ui/Card';
 import * as Colors from 'material-ui/styles/colors';
@@ -46,7 +46,7 @@ const styles = {
   }
 };
 
-export default class Pipeline extends React.Component {
+export default class Pipeline extends Component {
 
   /**
    * Calculates which weather icon to use for a pipeline based on pipeline heath.

@@ -2,13 +2,13 @@
  * Configuration dialog
  */
 
-import React from 'react';
+import React, {Component} from 'react';
 
 import {Divider, List, ListItem, Popover, Subheader, Toggle} from 'material-ui';
 
 import RegexPipelineFilter from './RegexPipelineFilter';
 
-export default class Configuration extends React.Component {
+export default class Configuration extends Component {
 
   constructor(props, context) {
     super(props, context);
